@@ -1,10 +1,17 @@
 body  {
     width: 100%;
-    background: url("/david-marcu-78A265wPiO4-unsplash\ 1.png");
+    background: url("/login/david-marcu-78A265wPiO4-unsplash\ 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: end;
+    user-select: none;
+}
+.btn > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 .block {
     width: 496px;
